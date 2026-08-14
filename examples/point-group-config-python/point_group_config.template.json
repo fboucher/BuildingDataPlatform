@@ -1,0 +1,35 @@
+{
+  "Version": "1.0",
+  "ProtocolVersion": "1.0",
+  "SourceId": "<REPLACE-WITH-BDP-SOURCE-ID>",
+  "PointGroupReferenceId": "<REPLACE-WITH-POINT-GROUP-REF>",
+  "Equipments": [
+    {
+      "ReferenceId": "MyEquipment-001",
+      "ExactType": "https://brickschema.org/schema/Brick#Equipment",
+      "VendorId": "<REPLACE-WITH-VENDOR-ID>",
+      "ProductType": "Generic",
+      "Name": "My Equipment 001",
+      "LocatedInReferenceId": "<REPLACE-WITH-LOCATION-REFERENCE-ID>",
+      "MonitorsReferenceId": null,
+      "Points": [
+        {
+          "ReferenceId": "MyEquipment-001-Temperature",
+          "ExactType": "https://brickschema.org/schema/Brick#Temperature_Sensor",
+          "Name": "Temperature",
+          "DataType": "Double",
+          "UnitExactType": "http://qudt.org/vocab/unit/DEG_C",
+          "IsWritable": false
+        },
+        {
+          "ReferenceId": "MyEquipment-001-Status",
+          "ExactType": "https://brickschema.org/schema/Brick#On_Off_Status",
+          "Name": "On/Off Status",
+          "DataType": "Boolean",
+          "UnitExactType": "http://qudt.org/vocab/unit/UNITLESS",
+          "IsWritable": false
+        }
+      ]
+    }
+  ]
+}

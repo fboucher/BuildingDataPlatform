@@ -1,0 +1,8 @@
+# Streaming API (Azure Event Hub) consumer.
+azure-eventhub>=5.11,<6
+
+# Required for --transport websockets (AMQP over 443). The SDK does not declare this
+# and does not fail loudly without it: it retries inside its load-balancing loop every
+# ~30 seconds, so a client appears to hang rather than reporting a missing package.
+# Uncomment if port 5671 is closed on your network.
+# websocket-client>=1.0
