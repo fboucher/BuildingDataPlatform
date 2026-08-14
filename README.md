@@ -72,7 +72,7 @@ Platform status: <https://ecostruxurebuildingdataplatform.statuspage.io/>
 Reply to your welcome email, or contact your Schneider Electric representative. Include the environment, the consumer or data source name, the request you made and the response you got, the answer usually depends on configuration only Schneider Electric can see.
 
 **For issues with examples or documentation:**
-Please [open a GitHub issue](https://github.com/SchneiderElectricBuildings/BDP/issues) with a clear description of the problem, including any error messages or examples of what's unclear.
+Please [open a GitHub issue](https://github.com/SchneiderElectricBuildings/BuildingDataPlatform/issues) with a clear description of the problem, including any error messages or examples of what's unclear.
 
 ## Security
 
