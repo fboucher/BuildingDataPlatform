@@ -24,5 +24,5 @@ Based on your workflow, continue with either [Consuming Data](consuming-data.md)
 
 ## 4. Feedback
 
-We welcome your feedback! If you have any questions, suggestions, or issues, open an [issue](https://github.com/SchneiderElectricBuildings/BDP/issues)
+We welcome your feedback! If you have any questions, suggestions, or issues, open an [issue](https://github.com/SchneiderElectricBuildings/BuildingDataPlatform/issues)
 
