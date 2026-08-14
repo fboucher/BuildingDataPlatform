@@ -82,4 +82,4 @@ See [SECURITY.md](SECURITY.md) for vulnerability reporting and for the credentia
 
 Copyright &copy; 2026 Schneider Electric. All rights reserved.
 
-See [LICENSE](LICENSE) for what you may do with the examples and the documentation in this starter pack.
+The examples and documentation in this starter pack are released under the [MIT License](LICENSE), so you are free to use, copy, and modify them in your own projects, including commercial ones.
