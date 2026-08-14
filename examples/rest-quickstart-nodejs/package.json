@@ -1,0 +1,28 @@
+{
+  "name": "rest-quickstart-nodejs",
+  "version": "1.0.0",
+  "description": "Make one authenticated REST API call to the BDP endpoint",
+  "type": "module",
+  "main": "call_rest_api.js",
+  "bin": {
+    "call-rest-api": "call_rest_api.js"
+  },
+  "scripts": {
+    "start": "node call_rest_api.js",
+    "test": "node call_rest_api.js --help"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "bdp",
+    "quickstart"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

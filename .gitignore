@@ -1,0 +1,28 @@
+# Credentials — never commit. Copy the .env.template files and fill these in locally.
+.env
+.env.*
+!.env.template
+*.pem
+*.key
+*.pfx
+local.settings.json
+
+# Point group configurations often carry site-specific identifiers
+my_config.json
+*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

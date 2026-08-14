@@ -1,0 +1,28 @@
+{
+  "name": "graphql-quickstart-nodejs",
+  "version": "1.0.0",
+  "description": "Check API token and introspect BDP GraphQL schema",
+  "type": "module",
+  "main": "introspect.js",
+  "bin": {
+    "introspect-graphql": "introspect.js"
+  },
+  "scripts": {
+    "start": "node introspect.js",
+    "test": "node introspect.js --help"
+  },
+  "keywords": [
+    "graphql",
+    "api",
+    "bdp",
+    "quickstart"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
