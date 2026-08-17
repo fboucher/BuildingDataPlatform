@@ -54,6 +54,17 @@ For the full catalog and quick-start guidance, see
 
 ---
 
+## Tools
+
+This starter pack includes utility tools to help with common tasks: reference data synchronization and interactive equipment configuration.
+
+| Tool | Language | Purpose |
+| --- | --- | --- |
+| [Bricks & QUDT Reference Data Sync](tools/brick-qudt-sync/) | .NET | Download BrickSchema and QUDT ontology data locally for semantic modeling |
+| [Equipment Wizard TUI](tools/equipment-wizard-tui/) | .NET | Interactive terminal wizard to generate equipment and sensor configuration JSON files |
+
+---
+
 ## API specifications
 
 The specifications are published on Schneider Electric Exchange, which also hosts the only supported interactive explorer (the **Try it** button):
