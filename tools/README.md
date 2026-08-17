@@ -10,7 +10,7 @@ Each tool is self-contained, includes setup and run guidance in its local README
 
 | Tool | Language | Purpose | What it helps you do |
 | --- | --- | --- | --- |
-| [Bricks & QUDT Reference Data Sync](brick-qudt-sync/) | .NET | Reference data synchronization | Download BrickSchema and QUDT ontology data locally for semantic modeling of equipment, points, and rooms |
+| [Bricks & QUDT Reference Data Sync](brick-qudt-sync/) | .NET | Reference data synchronization | Download Brick and QUDT ontology data locally for semantic modeling of equipment, points, and rooms |
 | [Equipment Wizard TUI](equipment-wizard-tui/) | .NET | Interactive configuration | Generate equipment and sensor configuration JSON files using a terminal-based wizard |
 
 ## Tool Pattern
@@ -30,7 +30,5 @@ The tools follow a practical, task-focused pattern:
 
 ## Related Guidance
 
-- [Examples Overview](../examples/README.md) – Runnable examples for consumers and providers
-- [Documentation Summary](../docs/README.md) – Full guides for setup, consuming data, and providing data
 - [Setup Credentials](../docs/setup-credentials.md) – Secure retrieval and storage of API credentials
-- [Providing Data](../docs/providing-data.md) – Data Integration Framework onboarding and configuration
+- [Examples Overview](../examples/README.md) – Runnable examples for consumers and providers
