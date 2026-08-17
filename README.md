@@ -56,7 +56,7 @@ For the full catalog and quick-start guidance, see
 
 ## Tools
 
-This starter pack includes utility tools to help with common tasks: reference data synchronization and interactive equipment configuration.
+This starter pack includes utility tools to help with common tasks: reference data synchronization and interactive equipment configuration. See more details about on [tools overviews](tools/README.md).
 
 | Tool | Language | Purpose |
 | --- | --- | --- |
