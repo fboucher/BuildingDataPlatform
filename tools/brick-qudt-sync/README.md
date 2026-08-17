@@ -7,6 +7,7 @@ A simple console application for downloading [BrickSchema](https://brickschema.o
 ## Quick Start
 
 ```bash
+cd src
 dotnet build 
 dotnet run
 ```

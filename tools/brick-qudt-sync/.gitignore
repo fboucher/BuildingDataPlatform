@@ -480,3 +480,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+
+**/Data/brick-classes.json
+**/Data/qudt-units.json
+
