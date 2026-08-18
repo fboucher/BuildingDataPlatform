@@ -10,7 +10,7 @@ BDP is a cloud platform that stores semantically described building data from Sc
 
 - **Consume data**: REST &middot; GraphQL &middot; Azure Event Hubs (streaming)
 - **Provide data**: Use the Data Integration Framework (DIF) over Azure IoT Hub
-- **Model semantics**: Brick Schema (equipment, points, rooms) &middot; REC (sites, buildings, levels) &middot; QUDT (units)
+- **Model semantics**: [Brick Ontology](https://brickschema.org/) (equipment, points) &middot; REC (sites, buildings, levels, rooms) &middot; [QUDT](https://github.com/qudt/qudt-public-repo) (units)
 - **Authenticate**: Bearer token &middot; Event Hub connection string &middot; IoT Hub SAS
 
 ---
