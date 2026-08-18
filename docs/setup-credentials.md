@@ -59,8 +59,8 @@ Set up and store BDP credentials securely so every guide and example in `publish
    - Event Hub: `examples/eventhub-consumer-python/consume.py`
    - DIF ingress: `examples/dif-telemetry-python/send_telemetry.py --dry-run`
 
-> [!IMPORTANT]
-> Add more detailed instruction for validating each credential, including expected output and common errors.
+> [!TIP]
+> Having trouble with credentials? It is usually a configuration problem, not a code problem. If you are stuck, check the [Troubleshooting](troubleshooting.md). If that doesn't help, refer to the [Support](https://github.com/SchneiderElectricBuildings/BuildingDataPlatform#support) section to know how to reach us.
 
 ## Expected Outcome
 
