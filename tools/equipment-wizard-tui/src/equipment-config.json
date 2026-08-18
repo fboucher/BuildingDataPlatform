@@ -1,0 +1,26 @@
+{
+  "Version": "1.0",
+  "SourceId": "c265a901-0820-4e3b-3b55-08dee69c2625",
+  "PointGroupReferenceId": "FS-WEATHER-1",
+  "Equipments": [
+    {
+      "ReferenceId": "Demo123",
+      "VendorId": "Ebo",
+      "ExactType": "https://brickschema.org/schema/Brick#Weather_Station",
+      "ProductType": "Generic",
+      "Name": "demo 123",
+      "LocatedInReferenceId": "terrasse-1",
+      "MonitorsReferenceId": null,
+      "Points": [
+        {
+          "ReferenceId": "Demo123-AirFlowSensor",
+          "ExactType": "https://brickschema.org/schema/Brick#Air_Flow_Sensor",
+          "Name": "Air Flow Sensor",
+          "IsWritable": false,
+          "UnitExactType": "http://qudt.org/vocab/unit/DEG",
+          "DataType": "Double"
+        }
+      ]
+    }
+  ]
+}
