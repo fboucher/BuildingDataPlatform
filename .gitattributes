@@ -1,7 +1,10 @@
 
-
 examples/**/*.cs linguist-detectable
 examples/**/*.py linguist-detectable
 examples/**/*.js linguist-detectable
 
-tools/**/src/**/*.cs linguist-detectable
+examples/*-dotnet/** linguist-language=C#
+examples/*-python/** linguist-language=Python
+examples/*-nodejs/** linguist-language=JavaScript
+
+tools/** linguist-detectable=false
